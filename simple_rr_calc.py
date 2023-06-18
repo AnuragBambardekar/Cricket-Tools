@@ -1,3 +1,11 @@
+"""
+Run rate calculator
+
+run rate = total runs scored / total overs faced
+
+~ Wikipedia
+"""
+
 def calculate_run_rate(total_runs, total_overs):
     run_rate = total_runs / total_overs
     return run_rate
