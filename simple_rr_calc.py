@@ -7,8 +7,9 @@ def calculate_scoring_rate(total_runs, total_balls):
     scoring_rate = total_runs / total_balls
     return scoring_rate
 
-total_runs = 250
-total_overs = 50
+total_runs = int(input("Enter the total runs: "))
+total_overs = int(input("Enter the total overs: "))
+
 rr = calculate_run_rate(total_runs, total_overs)
 print(f"The run rate is: {rr:.2f} runs per over")
 
