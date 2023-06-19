@@ -3,6 +3,7 @@
 - Simple Run Rate calculator
 - Net Run Rate calculator
 - Tournament Run Rate calculator
+- Overs to Balls Calculator
 
 ## To Do:
 
