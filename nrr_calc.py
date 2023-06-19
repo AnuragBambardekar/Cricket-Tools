@@ -36,10 +36,3 @@ net_rr_team2 = calculate_net_run_rate(total_runs_scored_team2, total_overs_faced
 print(f"The first team's net run rate is: {net_rr_team1:.2f}")
 print(f"The second team's net run rate is: {net_rr_team2:.2f}")
 
-
-
-
-"""
-Tournament run rate
-
-"""
