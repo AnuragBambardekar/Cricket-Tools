@@ -1,7 +1,7 @@
 # Cricket Tools
 
 - Simple Run Rate calculator
-- Net Run Rate calculator - doesn't support bowled out scenarios
+- Net Run Rate calculator - (doesn't support bowled out scenarios)
 - Tournament Run Rate calculator
 - Overs to Balls Calculator
 - NRR Calculator - v2
