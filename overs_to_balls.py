@@ -9,6 +9,6 @@ def overs_to_balls(overs):
     return balls
 
 # Example usage
-overs = 40.3
+overs = 47.2
 balls = overs_to_balls(overs)
 print(f"{overs} overs is equal to {balls} balls.")
