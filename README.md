@@ -29,6 +29,10 @@ This fact can encourage a team to play in an overly aggressive manner, to maximi
 
 - Duckworth-Lewis-Stern Method
 
+## TO Do:
+
+- DLS Calculator
+
 
 ## Refs
 - Wikipedia: https://en.wikipedia.org/wiki/Net_run_rate
