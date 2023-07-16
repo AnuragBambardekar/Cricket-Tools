@@ -21,6 +21,10 @@ Duckworth-Lewis system was invented in order to make the game equally difficult 
 
 Today we know it as Frank <font color="blue">Duckworth</font> - Tony <font color="red">Lewis</font> - Steven <font color="green">Stern</font> method.
 
+<font color="green">The DLS calculator apk file found on the ICC website version 5.0 supposedly uses the DLS Profesional Edition table so the DLS par scores calculated are different.</font>
+
+<font color="green">At the top level of the game, the DLS method is now used. This requires use of a computer program. At lower levels of the game, where use of a computer cannot always be guaranteed, the D/L Standard Edition is used. This is the method which was used universally before 2004; it is operated manually using the published tables of resource percentages. </font>~ICC
+
 ## Concept of Resources -- D-L (Duckworth/Lewis) method of adjusting target scores in interrupted one-day cricket matches - Standard Edition
 
     Wickets left: 10 
@@ -64,7 +68,7 @@ England score 101/2 (20 overs). Rain stopped play and reduced 30 overs from both
 
 England started off with 50 overs in sight. But later 30 overs were reduced due to delay incurred because of the rain. 
 
-Before the rain, England had 30 overs and 8 wickets to play with. --> which is 67.3% of resources to play with. [according to the DLS table on ICC website.]
+Before the rain, England had 30 overs and 8 wickets to play with. --> which is 67.3% of resources to play with. [according to the DLS table - **Standard Edition** on ICC website.]
 
 So, England had utilised only 100% - 67.3% = 32.7% 
 
@@ -142,3 +146,7 @@ Par Score = 194 <br>
 Runs required to win = 195
 
 ---
+
+### References & Resources
+
+- https://www.icc-cricket.com/about/cricket/rules-and-regulations/duckworth-lewis-stern
