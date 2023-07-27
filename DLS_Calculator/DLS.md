@@ -8,7 +8,7 @@ Then it rained, so game was reduced by 30 overs
 If 300 runs in 50 overs <br>
 Then **?** runs in 20 overs
 
-runs = 300 x x20 / 500 = 120 <br>
+runs = 300 x 20 / 50 = 120 <br>
 New Target for Australia is 121 in 20 overs.
 
 <font color="red">But this is not fair to Team India or for that matter the team that plays first.</font>
