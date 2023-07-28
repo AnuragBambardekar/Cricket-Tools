@@ -1,3 +1,7 @@
+import sqlite3
+conn = sqlite3.connect('DLS_Calculator/DLS.db')
+cursor = conn.cursor()
+
 print("Duckworth-Lewis-Stern Calculator for ODI regulations(50 overs/innings) (min. 20 overs/side)")
 
 """
@@ -43,14 +47,27 @@ elif number_of_stoppages == 1:
 
     # In this case, Team 1 has used up all of its resources = 100% (for now)
     
-    if overs_lost_per_side == 30:
-        overs_left = 50 - overs_lost_per_side
-        if wickets_down == 0:
-            resources_left = 56.6
+    # if overs_lost_per_side == 30:
+    #     overs_left = 50 - overs_lost_per_side
+    #     if wickets_down == 0:
+    #         resources_left = 56.6
 
-    revised_target = (team1_final_score * resources_left)/100
+    # revised_target = (team1_final_score * resources_left)/100
 
-    print("Revised target for Team 2: ",revised_target)
+    # print("Revised target for Team 2: ",revised_target)
+
+    # cursor.execute('SELECT overs_left, wickets_lost, resources_left FROM DLS_vals')
+    cursor.execute('SELECT resources_left FROM DLS_vals WHERE overs_left=? AND wickets_lost=?', (50, wickets_down))
+    row = cursor.fetchone()
+
+    if row:
+        resources_left = row[0]
+        print("Resources Left:", resources_left)
+    else:
+        print("No data found for the given overs_left and wickets_lost.")
+
+    revised_target = round(((team1_final_score * resources_left)/100)+1)
+    print("DLS par score: ",revised_target)
 
 else:
     pass
